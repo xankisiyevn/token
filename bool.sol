@@ -428,7 +428,7 @@ contract Ownable is Context {
 
 
 
-contract RichieRICH is Context, IERC20, Ownable {
+contract BICH is Context, IERC20, Ownable {
     using SafeMath for uint256;
     using Address for address;
 
