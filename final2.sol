@@ -5,7 +5,7 @@
 /**
  *
  * Thank you FEGrox for the guidence and mentorship on the process of creating the tokenomics and auditing the code.
- * - Team Richie
+ * - Team Tax
 
 */
 
@@ -428,7 +428,7 @@ contract Ownable is Context {
 
 
 
-contract RichieRICH is Context, IERC20, Ownable {
+contract TAXi is Context, IERC20, Ownable {
     using SafeMath for uint256;
     using Address for address;
 
@@ -444,8 +444,8 @@ contract RichieRICH is Context, IERC20, Ownable {
     uint256 private _rTotal = (MAX - (MAX % _tTotal));
     uint256 private _tFeeTotal;
 
-    string private _name = 'Richie';
-    string private _symbol = 'RICH';
+    string private _name = 'TAXi';
+    string private _symbol = 'TAX';
     uint8 private _decimals = 9;
 
     constructor () {
